@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Conference ticket</title>
+
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      Microsoft.QuickAction.Bluetooth
+      <img src="./assets/logo-mark.svg" alt="Logo" />
+      <h1>Coding Conf</h1>
+    </header>
+    <section class="hero">
+      <p class="hero-title">Your Journey to Coding Conf 2025 Starts Here!</p>
+      <p class="hero-description">
+        Secure your spot at next year’s biggest coding conference.
+      </p>
+    </section>
+    <form action="" class="ticket-form">
+      <label for="avatar-upload">Upload Avatar</label>
+      <div class="dropzone">
+        <img src="./assets/icon-upload.svg" alt="Upload" />
+        <p class="dropzone-txt">Drag and drop or click to upload</p>
+      </div>
+      <p class="dropzone-warnings">
+        <img src="./assets/icon-info.svg" alt="" /> Upload your photo (JPG or
+        PNG, max size: 500KB).
+      </p>
+
+      <label for="full-name">Full Name</label>
+      <input type="text" name="full-name" />
+
+      <label for="email">Email Address</label>
+      <input type="text" name="email" />
+
+      <label for="github">GitHub Username</label>
+      <input type="text" name="github" />
+
+      <input type="submit" value="Generate My Ticket" />
+    </form>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
